@@ -1,0 +1,38 @@
+{
+    "SGD": {
+        "average_accuracy": {
+            "before_drift": 0.898,
+            "during_drift": 0.6799999999999999,
+            "after_drift": 0.7879999999999999
+        },
+        "drift_points": [],
+        "recovery_metrics": {
+            "recovery_time": 1,
+            "stability": 0.016583123951777013
+        }
+    },
+    "NaiveBayes": {
+        "average_accuracy": {
+            "before_drift": 0.89,
+            "during_drift": 0.6239999999999999,
+            "after_drift": 0.8480000000000001
+        },
+        "drift_points": [],
+        "recovery_metrics": {
+            "recovery_time": 0,
+            "stability": 0.08059776671843953
+        }
+    },
+    "AdaptiveRandomForest": {
+        "average_accuracy": {
+            "before_drift": 0.8933469387755102,
+            "during_drift": 0.6880000000000001,
+            "after_drift": 0.96
+        },
+        "drift_points": [],
+        "recovery_metrics": {
+            "recovery_time": 0,
+            "stability": 0.025298221281347056
+        }
+    }
+}
